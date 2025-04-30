@@ -4,13 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistem Operasi - Tajul Fazarie</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #facc15, #000);
+            color: white;
+            padding: 20px 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 30px 15px;
+        }
+
+        .section-beranda {
+            background-color: #fef08a; /* Kuning muda */
+        }
+
+        .section-tentang {
+            background-color: #a7f3d0; /* Hijau muda */
+        }
+
+        .section-tugas {
+            background-color: #bfdbfe; /* Biru muda */
+        }
+
+        .section-kontak {
+            background-color: #fbcfe8; /* Pink muda */
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            padding: 15px;
+        }
+    </style>
 </head>
-<body class="gradient-bg">
+<body>
     <header>
-        <h1 class="center-text">Mata Kuliah Sistem Operasi</h1>
+        <h1>Mata Kuliah Sistem Operasi</h1>
         <nav>
-            <ul class="center-text">
+            <ul>
                 <li><a href="#beranda">Beranda</a></li>
                 <li><a href="#tentang">Tentang</a></li>
                 <li><a href="#tugas">Tugas</a></li>
@@ -19,32 +79,32 @@
         </nav>
     </header>
 
-    <main class="center-text">
-        <section id="beranda">
+    <main>
+        <section id="beranda" class="section-beranda">
             <h2>Selamat Datang di Website Pribadi</h2>
             <p>Halo, selamat datang di website pribadi saya! Website ini dibuat untuk memenuhi tugas dari mata kuliah Sistem Operasi. 
             Semoga informasi yang ada di sini dapat bermanfaat dan memberikan gambaran yang baik tentang materi yang telah dipelajari.</p>
         </section>
 
-        <section id="tentang">
+        <section id="tentang" class="section-tentang">
             <h2>Tentang</h2>
             <p><strong>Nama:</strong> Tajul Fazarie</p>
             <p><strong>NIM:</strong> 2303010140</p>
             <p><strong>Kelas:</strong> TI - F-23 - 4F</p>
         </section>
 
-        <section id="tugas">
+        <section id="tugas" class="section-tugas">
             <h2>Daftar Tugas</h2>
             <p>Belum ada tugas yang ditampilkan. Tugas akan ditambahkan seiring berjalannya waktu.</p>
         </section>
 
-        <section id="kontak">
+        <section id="kontak" class="section-kontak">
             <h2>Kontak</h2>
             <p>Email: <a href="mailto:TajulFazari@gmail.com">TajulFazari@gmail.com</a></p>
         </section>
     </main>
 
-    <footer class="center-text">
+    <footer>
         <p>&copy; 2025 Tajul Fazarie</p>
     </footer>
 </body>
