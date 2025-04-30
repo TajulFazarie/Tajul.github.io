@@ -1,0 +1,33 @@
+/* Background gradien kuning ke hitam */
+.gradient-bg {
+    background: linear-gradient(to bottom, yellow, black);
+    color: white; /* agar teks terlihat di atas warna gelap */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Semua teks di tengah */
+.center-text {
+    text-align: center;
+}
+
+/* Menghilangkan bullet dan merapikan navbar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
